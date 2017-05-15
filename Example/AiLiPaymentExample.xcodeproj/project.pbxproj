@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B58BEAE67AEA1DB2DAC5B12 /* Pods_AiLiPaymentExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D67F0F5EEBE4BA44068582F8 /* Pods_AiLiPaymentExample.framework */; };
 		839394521EC9476D002D2ADB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839394511EC9476D002D2ADB /* AppDelegate.swift */; };
 		839394541EC9476D002D2ADB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839394531EC9476D002D2ADB /* ViewController.swift */; };
 		839394571EC9476D002D2ADB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 839394551EC9476D002D2ADB /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5FDF0F01316EF45598035628 /* Pods-AiLiPaymentExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AiLiPaymentExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-AiLiPaymentExample/Pods-AiLiPaymentExample.release.xcconfig"; sourceTree = "<group>"; };
 		8393944E1EC9476D002D2ADB /* AiLiPaymentExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AiLiPaymentExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		839394511EC9476D002D2ADB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		839394531EC9476D002D2ADB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +49,8 @@
 		8393946D1EC9476D002D2ADB /* AiLiPaymentExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AiLiPaymentExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		839394711EC9476D002D2ADB /* AiLiPaymentExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AiLiPaymentExampleUITests.swift; sourceTree = "<group>"; };
 		839394731EC9476D002D2ADB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1EFFE89EEB701BCFB5E1B48 /* Pods-AiLiPaymentExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AiLiPaymentExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AiLiPaymentExample/Pods-AiLiPaymentExample.debug.xcconfig"; sourceTree = "<group>"; };
+		D67F0F5EEBE4BA44068582F8 /* Pods_AiLiPaymentExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AiLiPaymentExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B58BEAE67AEA1DB2DAC5B12 /* Pods_AiLiPaymentExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +79,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		57BCBED8C04D62BE81195D9E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D67F0F5EEBE4BA44068582F8 /* Pods_AiLiPaymentExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		839394451EC9476D002D2ADB = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +94,8 @@
 				839394651EC9476D002D2ADB /* AiLiPaymentExampleTests */,
 				839394701EC9476D002D2ADB /* AiLiPaymentExampleUITests */,
 				8393944F1EC9476D002D2ADB /* Products */,
+				A0CB63FC15254B44A00D760F /* Pods */,
+				57BCBED8C04D62BE81195D9E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +140,15 @@
 			path = AiLiPaymentExampleUITests;
 			sourceTree = "<group>";
 		};
+		A0CB63FC15254B44A00D760F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C1EFFE89EEB701BCFB5E1B48 /* Pods-AiLiPaymentExample.debug.xcconfig */,
+				5FDF0F01316EF45598035628 /* Pods-AiLiPaymentExample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 839394761EC9476D002D2ADB /* Build configuration list for PBXNativeTarget "AiLiPaymentExample" */;
 			buildPhases = (
+				F7AD06526470470454D2BC13 /* [CP] Check Pods Manifest.lock */,
 				8393944A1EC9476D002D2ADB /* Sources */,
 				8393944B1EC9476D002D2ADB /* Frameworks */,
 				8393944C1EC9476D002D2ADB /* Resources */,
+				7A186B71EC78D1196D1F60B7 /* [CP] Embed Pods Frameworks */,
+				4D73B4B4F854BDAED92111A3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +280,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4D73B4B4F854BDAED92111A3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AiLiPaymentExample/Pods-AiLiPaymentExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A186B71EC78D1196D1F60B7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AiLiPaymentExample/Pods-AiLiPaymentExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7AD06526470470454D2BC13 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8393944A1EC9476D002D2ADB /* Sources */ = {
@@ -412,6 +487,7 @@
 		};
 		839394771EC9476D002D2ADB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1EFFE89EEB701BCFB5E1B48 /* Pods-AiLiPaymentExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AiLiPaymentExample/Info.plist;
@@ -424,6 +500,7 @@
 		};
 		839394781EC9476D002D2ADB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FDF0F01316EF45598035628 /* Pods-AiLiPaymentExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AiLiPaymentExample/Info.plist;

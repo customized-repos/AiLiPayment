@@ -1,0 +1,16 @@
+PODS:
+  - AiLiPayment (0.0.1)
+
+DEPENDENCIES:
+  - AiLiPayment (from `../`)
+
+EXTERNAL SOURCES:
+  AiLiPayment:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AiLiPayment: 647277cef5fbf272c7639ff7d8fc244bbc9af36d
+
+PODFILE CHECKSUM: d35e8ccc3b5a6c40117f285e088ed2072943c5e8
+
+COCOAPODS: 1.2.1
