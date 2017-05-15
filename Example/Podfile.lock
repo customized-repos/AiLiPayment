@@ -1,5 +1,5 @@
 PODS:
-  - AiLiPayment (0.0.1)
+  - AiLiPayment (0.0.2)
 
 DEPENDENCIES:
   - AiLiPayment (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  AiLiPayment: a6a3571a815de6d16ed9dd51f3bb736b4b518258
+  AiLiPayment: 5826856a9a40c02d4c22d264990ade66a3ac904f
 
 PODFILE CHECKSUM: d35e8ccc3b5a6c40117f285e088ed2072943c5e8
 
