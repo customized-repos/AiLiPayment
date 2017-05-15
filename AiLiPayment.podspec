@@ -17,11 +17,11 @@ Pod::Spec.new do |s|
 
   s.author        = { "GorCat" => "745318341@qq.com" }
 
-  s.platform      =  :ios，"8.0"
+  s.platform      =  :ios, "8.0"
 
-  s.source        = { :git => "https://github.com/zhiyicx/AiLiPayment.git"，:tag => s.version}
+  s.source        = { :git => "https://github.com/zhiyicx/AiLiPayment.git", :tag => s.version}
 
-  s.source_files   =  'AiLiPayment'，'AiLiPayment/**/*.{swift}'
+  s.source_files   =  'AiLiPayment', 'AiLiPayment/**/*.{swift}'
 
   s.requires_arc =  true
 
