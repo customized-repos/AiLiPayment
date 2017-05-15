@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		839394521EC9476D002D2ADB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839394511EC9476D002D2ADB /* AppDelegate.swift */; };
+		839394541EC9476D002D2ADB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839394531EC9476D002D2ADB /* ViewController.swift */; };
+		839394571EC9476D002D2ADB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 839394551EC9476D002D2ADB /* Main.storyboard */; };
+		839394591EC9476D002D2ADB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 839394581EC9476D002D2ADB /* Assets.xcassets */; };
+		8393945C1EC9476D002D2ADB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8393945A1EC9476D002D2ADB /* LaunchScreen.storyboard */; };
+		839394671EC9476D002D2ADB /* AiLiPaymentExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839394661EC9476D002D2ADB /* AiLiPaymentExampleTests.swift */; };
+		839394721EC9476D002D2ADB /* AiLiPaymentExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839394711EC9476D002D2ADB /* AiLiPaymentExampleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		839394631EC9476D002D2ADB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 839394461EC9476D002D2ADB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8393944D1EC9476D002D2ADB;
+			remoteInfo = AiLiPaymentExample;
+		};
+		8393946E1EC9476D002D2ADB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 839394461EC9476D002D2ADB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8393944D1EC9476D002D2ADB;
+			remoteInfo = AiLiPaymentExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8393944E1EC9476D002D2ADB /* AiLiPaymentExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AiLiPaymentExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		839394511EC9476D002D2ADB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		839394531EC9476D002D2ADB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		839394561EC9476D002D2ADB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		839394581EC9476D002D2ADB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8393945B1EC9476D002D2ADB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8393945D1EC9476D002D2ADB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		839394621EC9476D002D2ADB /* AiLiPaymentExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AiLiPaymentExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		839394661EC9476D002D2ADB /* AiLiPaymentExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AiLiPaymentExampleTests.swift; sourceTree = "<group>"; };
+		839394681EC9476D002D2ADB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8393946D1EC9476D002D2ADB /* AiLiPaymentExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AiLiPaymentExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		839394711EC9476D002D2ADB /* AiLiPaymentExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AiLiPaymentExampleUITests.swift; sourceTree = "<group>"; };
+		839394731EC9476D002D2ADB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8393944B1EC9476D002D2ADB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8393945F1EC9476D002D2ADB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8393946A1EC9476D002D2ADB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		839394451EC9476D002D2ADB = {
+			isa = PBXGroup;
+			children = (
+				839394501EC9476D002D2ADB /* AiLiPaymentExample */,
+				839394651EC9476D002D2ADB /* AiLiPaymentExampleTests */,
+				839394701EC9476D002D2ADB /* AiLiPaymentExampleUITests */,
+				8393944F1EC9476D002D2ADB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8393944F1EC9476D002D2ADB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8393944E1EC9476D002D2ADB /* AiLiPaymentExample.app */,
+				839394621EC9476D002D2ADB /* AiLiPaymentExampleTests.xctest */,
+				8393946D1EC9476D002D2ADB /* AiLiPaymentExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		839394501EC9476D002D2ADB /* AiLiPaymentExample */ = {
+			isa = PBXGroup;
+			children = (
+				839394511EC9476D002D2ADB /* AppDelegate.swift */,
+				839394531EC9476D002D2ADB /* ViewController.swift */,
+				839394551EC9476D002D2ADB /* Main.storyboard */,
+				839394581EC9476D002D2ADB /* Assets.xcassets */,
+				8393945A1EC9476D002D2ADB /* LaunchScreen.storyboard */,
+				8393945D1EC9476D002D2ADB /* Info.plist */,
+			);
+			path = AiLiPaymentExample;
+			sourceTree = "<group>";
+		};
+		839394651EC9476D002D2ADB /* AiLiPaymentExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				839394661EC9476D002D2ADB /* AiLiPaymentExampleTests.swift */,
+				839394681EC9476D002D2ADB /* Info.plist */,
+			);
+			path = AiLiPaymentExampleTests;
+			sourceTree = "<group>";
+		};
+		839394701EC9476D002D2ADB /* AiLiPaymentExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				839394711EC9476D002D2ADB /* AiLiPaymentExampleUITests.swift */,
+				839394731EC9476D002D2ADB /* Info.plist */,
+			);
+			path = AiLiPaymentExampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8393944D1EC9476D002D2ADB /* AiLiPaymentExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 839394761EC9476D002D2ADB /* Build configuration list for PBXNativeTarget "AiLiPaymentExample" */;
+			buildPhases = (
+				8393944A1EC9476D002D2ADB /* Sources */,
+				8393944B1EC9476D002D2ADB /* Frameworks */,
+				8393944C1EC9476D002D2ADB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AiLiPaymentExample;
+			productName = AiLiPaymentExample;
+			productReference = 8393944E1EC9476D002D2ADB /* AiLiPaymentExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		839394611EC9476D002D2ADB /* AiLiPaymentExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 839394791EC9476D002D2ADB /* Build configuration list for PBXNativeTarget "AiLiPaymentExampleTests" */;
+			buildPhases = (
+				8393945E1EC9476D002D2ADB /* Sources */,
+				8393945F1EC9476D002D2ADB /* Frameworks */,
+				839394601EC9476D002D2ADB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				839394641EC9476D002D2ADB /* PBXTargetDependency */,
+			);
+			name = AiLiPaymentExampleTests;
+			productName = AiLiPaymentExampleTests;
+			productReference = 839394621EC9476D002D2ADB /* AiLiPaymentExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8393946C1EC9476D002D2ADB /* AiLiPaymentExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8393947C1EC9476D002D2ADB /* Build configuration list for PBXNativeTarget "AiLiPaymentExampleUITests" */;
+			buildPhases = (
+				839394691EC9476D002D2ADB /* Sources */,
+				8393946A1EC9476D002D2ADB /* Frameworks */,
+				8393946B1EC9476D002D2ADB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8393946F1EC9476D002D2ADB /* PBXTargetDependency */,
+			);
+			name = AiLiPaymentExampleUITests;
+			productName = AiLiPaymentExampleUITests;
+			productReference = 8393946D1EC9476D002D2ADB /* AiLiPaymentExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		839394461EC9476D002D2ADB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = GorCat;
+				TargetAttributes = {
+					8393944D1EC9476D002D2ADB = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					839394611EC9476D002D2ADB = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8393944D1EC9476D002D2ADB;
+					};
+					8393946C1EC9476D002D2ADB = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8393944D1EC9476D002D2ADB;
+					};
+				};
+			};
+			buildConfigurationList = 839394491EC9476D002D2ADB /* Build configuration list for PBXProject "AiLiPaymentExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 839394451EC9476D002D2ADB;
+			productRefGroup = 8393944F1EC9476D002D2ADB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8393944D1EC9476D002D2ADB /* AiLiPaymentExample */,
+				839394611EC9476D002D2ADB /* AiLiPaymentExampleTests */,
+				8393946C1EC9476D002D2ADB /* AiLiPaymentExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8393944C1EC9476D002D2ADB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8393945C1EC9476D002D2ADB /* LaunchScreen.storyboard in Resources */,
+				839394591EC9476D002D2ADB /* Assets.xcassets in Resources */,
+				839394571EC9476D002D2ADB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		839394601EC9476D002D2ADB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8393946B1EC9476D002D2ADB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8393944A1EC9476D002D2ADB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				839394541EC9476D002D2ADB /* ViewController.swift in Sources */,
+				839394521EC9476D002D2ADB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8393945E1EC9476D002D2ADB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				839394671EC9476D002D2ADB /* AiLiPaymentExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		839394691EC9476D002D2ADB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				839394721EC9476D002D2ADB /* AiLiPaymentExampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		839394641EC9476D002D2ADB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8393944D1EC9476D002D2ADB /* AiLiPaymentExample */;
+			targetProxy = 839394631EC9476D002D2ADB /* PBXContainerItemProxy */;
+		};
+		8393946F1EC9476D002D2ADB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8393944D1EC9476D002D2ADB /* AiLiPaymentExample */;
+			targetProxy = 8393946E1EC9476D002D2ADB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		839394551EC9476D002D2ADB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				839394561EC9476D002D2ADB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8393945A1EC9476D002D2ADB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8393945B1EC9476D002D2ADB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		839394741EC9476D002D2ADB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		839394751EC9476D002D2ADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		839394771EC9476D002D2ADB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AiLiPaymentExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stanford.gorcat.AiLiPaymentExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		839394781EC9476D002D2ADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AiLiPaymentExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stanford.gorcat.AiLiPaymentExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8393947A1EC9476D002D2ADB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AiLiPaymentExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stanford.gorcat.AiLiPaymentExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AiLiPaymentExample.app/AiLiPaymentExample";
+			};
+			name = Debug;
+		};
+		8393947B1EC9476D002D2ADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AiLiPaymentExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stanford.gorcat.AiLiPaymentExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AiLiPaymentExample.app/AiLiPaymentExample";
+			};
+			name = Release;
+		};
+		8393947D1EC9476D002D2ADB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = AiLiPaymentExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stanford.gorcat.AiLiPaymentExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AiLiPaymentExample;
+			};
+			name = Debug;
+		};
+		8393947E1EC9476D002D2ADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = AiLiPaymentExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stanford.gorcat.AiLiPaymentExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AiLiPaymentExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		839394491EC9476D002D2ADB /* Build configuration list for PBXProject "AiLiPaymentExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				839394741EC9476D002D2ADB /* Debug */,
+				839394751EC9476D002D2ADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		839394761EC9476D002D2ADB /* Build configuration list for PBXNativeTarget "AiLiPaymentExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				839394771EC9476D002D2ADB /* Debug */,
+				839394781EC9476D002D2ADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		839394791EC9476D002D2ADB /* Build configuration list for PBXNativeTarget "AiLiPaymentExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8393947A1EC9476D002D2ADB /* Debug */,
+				8393947B1EC9476D002D2ADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8393947C1EC9476D002D2ADB /* Build configuration list for PBXNativeTarget "AiLiPaymentExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8393947D1EC9476D002D2ADB /* Debug */,
+				8393947E1EC9476D002D2ADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 839394461EC9476D002D2ADB /* Project object */;
+}
