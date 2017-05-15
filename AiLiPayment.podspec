@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.version      = "0.0.1"
   s.summary      = "支付系统"
   s.description  = <<-DESC
-                    支付系统
+                    诞生于 TS_Plus 的支付系统
                    DESC
 
   s.homepage     = "https://github.com/zhiyicx/AiLiPayment"
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 
   s.source        = { :git => "https://github.com/zhiyicx/AiLiPayment.git", :tag => s.version}
 
-  s.source_files   =  'AiLiPayment', 'AiLiPayment/**/*.{swift}'
+  s.source_files   = 'AiLiPayment', 'AiLiPayment/**/*.{swift}'
 
   s.requires_arc =  true
 
