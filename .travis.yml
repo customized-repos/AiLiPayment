@@ -1,0 +1,20 @@
+language: swift # or objective-c
+osx_image: xcode8.2
+branches:
+  only:
+  - master
+global:
+  - LANG=en_US.UTF-8
+  - LC_ALL=en_US.UTF-8
+  - SCHEME="AiLiPaymentExample"
+  - WORKSPACE=Example/AiLiPaymentExample.xcworkspace
+before_install:
+  - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
+  - gem install cocoapods -v 1.2.0 --no-rdoc --no-ri --no-document --quiet
+  - pod repo update
+  - pod install --project-directory=Example
+script:
+  - pod lib lint
+  - xcodebuild -scheme AiLiPaymentExample -workspace Example/AiLiPaymentExample.xcworkspace -sdk iphonesimulator -destination 'platform=iOS Simulator,OS=10.2,name=iPhone 6S' build test | xcpretty -c
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
